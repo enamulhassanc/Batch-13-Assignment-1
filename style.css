@@ -171,3 +171,43 @@
     text-align: center;
     color: #627382;
 }
+
+.brain-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    padding: 120px;
+}
+.brain-section-image {
+    border-radius: 12px;
+    width: 600px;
+    height: 600px;
+}
+.brain-section .menu {
+    list-style-type: none;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #001931;
+}
+.brain-section-content h3 {
+    font-weight: 500;
+    line-height: 20px;
+    color: #469165;
+    margin-top: 102px;
+}
+.brain-section-content h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    color: #001931;
+    margin: 16px auto;
+
+}
+.brain-section-content p {
+    font-weight: 400px;
+    line-height: 20px;
+    margin-bottom: 40px;
+    
+}
