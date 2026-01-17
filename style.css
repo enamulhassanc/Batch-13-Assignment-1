@@ -212,10 +212,15 @@
     
 }
 .early-access-section {
-    background-color: rgba(251, 251, 251, 1);
+    background-color: rgba(247, 246, 242, 1);
     border-radius: 12px;
     padding: 80px 40px;
-       
+    max-width: 1360px;
+    margin: 120px;
+           
+}
+.early-access-section .content-section {
+    align-items: center;
 }
 .early-access-section h2 {
     font-size: 40px;
@@ -223,6 +228,7 @@
     line-height: 48px;
     margin-bottom: 16px;
     color: #001931;
+    align-items: center;
 }
 .early-access-section p {
     font-weight: 400;
